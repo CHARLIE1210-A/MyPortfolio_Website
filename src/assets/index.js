@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logo1 from './company/logo2.jpg'
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,13 +30,21 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import robot from "./robot.png";
+import data from "./data.png"
+import robo from "./company/robo.png"
+import sandrover from "./company/sandrover.png"
+import hackathon from "./company/hackathon.png"
 
 export {
   logo,
+  logo1,
   backend,
   creator,
   mobile,
   web,
+  robot,
+  data,
   github,
   menu,
   close,
@@ -52,6 +61,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  robo,
+  sandrover,
+  hackathon,
   meta,
   shopify,
   starbucks,

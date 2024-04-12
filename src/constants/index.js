@@ -3,6 +3,8 @@ import {
     backend,
     creator,
     web,
+    robot,
+    data,
     javascript,
     typescript,
     html,
@@ -19,6 +21,9 @@ import {
     starbucks,
     tesla,
     shopify,
+    robo,
+    sandrover,
+    hackathon,
     carrent,
     jobit,
     tripguide,
@@ -46,7 +51,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Flutter Developer",
       icon: mobile,
     },
     {
@@ -54,7 +59,15 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "AI/ML Enginner",
+      icon: robot,
+    },
+    {
+      title: "Data Enginner",
+      icon: data,
+    },
+    {
+      title: "Content Writer",
       icon: creator,
     },
   ];
@@ -116,84 +129,85 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Project Development Competition",
+      company_name: "AICTE IDEA LAB",
+      icon: robo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Securing 1st rank",
+        "In this competition, we used esp32 models to create a robot that could monitor locations where it was difficult for a person to reach.",
+        "We sent the data from our camera to the phone through wifi network so that the user can monitor and control everything from his phone.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Sand Rover Competition",
+      company_name: "Kshitij 2023,IIT Kharaghpur",
+      icon: sandrover,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Securing 2nd rank",
+        "In this, a rover had to be made and it had to be driven on a path which was full of some difficulties.",
+        "There were three rounds in this, idea submission was to be done in the first round. responsive design and ensuring cross-browser compatibility.",
+        "Then we had to send a prototype design, then in the last round we completed the path in less time by picking up sand.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Hackathon (Software Edition)",
+      company_name: "Smart India Hackathon,2023",
+      icon: hackathon,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Nov 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Securing 1st rank",
+        "This is a national level hackath event which is organized by the Government of India every year.",
+        "In this competition we solved the problem statement of Coal Ministry.",
+        "The statement was that we have to reduce demerge charges.For which we had created a website which analyzed the railway movement and informed the users accordingly.For this we used a lot of technology stacks",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Project development program (with IoT sensors and Arduino/ESP-32/NodeMCU)",
+      name: "AICTE IDEA LAB",
+      designation: "in",
+      company: "2022",
+      image: "https://randomuser.me/api/portraits/women/6.jpg",
+    },
+    {
+      testimonial:
+        "Drone Design and Development ",
+      name: "AICTE IDEA LAB",
+      designation: "in ",
+      company: "2022",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Raspberry Pi (Using Python ) ",
+      name: "AICTE IDEA LAB",
+      designation: "in",
+      company: "2023",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    
   ];
   
   const projects = [
