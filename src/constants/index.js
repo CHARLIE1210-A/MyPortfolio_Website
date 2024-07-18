@@ -28,6 +28,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -212,67 +213,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Coal-mine Manager",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This project is developed for the Smart India Hackathon under the Railway Ministry, aims to revolutionize the coal mining industry by leveraging modern web technologies and APIs to enhance operational efficiency and safety. Utilizing a stack of React, Express, MySQL, and a messaging API, we created a robust and scalable solution tailored to the unique needs of coal mining operations.",
       tags: [
         {
-          name: "react",
+          name: "ReactJs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "ExpressJs",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/CHARLIE1210-A/coalmining-manager-website",
     },
     {
-      name: "Job IT",
+      name: "Multi Recommended System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The Multi-Recommendation System project aims to develop a comprehensive recommendation engine that provides tailored suggestions for music, books, and movies. By leveraging advanced ML algorithms and collaborative filtering techniques, this system aspires to deliver accurate and relevant recommendations, enriching user engagement and satisfaction.",
       tags: [
         {
-          name: "react",
+          name: "ReactJs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Python",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "scss",
+        //   color: "pink-text-gradient",
+        // },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/CHARLIE1210-A/Minor-Project",
     },
     {
-      name: "Trip Guide",
+      name: "Vasudhara-A smart farming mobile application.",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "It is a cutting-edge mobile application designed to enhance farming techniques using modern technology. This app provides farmers with essential tools and information to make informed decisions, increase productivity, and promote sustainable farming practices.",
       tags: [
         {
-          name: "nextjs",
+          name: "Flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Dart",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Firebase",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/CHARLIE1210-A/Vasudhara-a-smart-farming-method",
     },
   ];
   
