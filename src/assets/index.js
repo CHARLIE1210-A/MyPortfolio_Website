@@ -35,6 +35,9 @@ import data from "./data.png"
 import robo from "./company/robo.png"
 import sandrover from "./company/sandrover.png"
 import hackathon from "./company/hackathon.png"
+import coalmanager from "../assets/coalmanager.jpg"
+import recommendation from "../assets/recommendation.jpg"
+import farming from "../assets/farming.jpg"
 
 export {
   logo,
@@ -71,4 +74,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  coalmanager,
+  recommendation,
+  farming,
 };

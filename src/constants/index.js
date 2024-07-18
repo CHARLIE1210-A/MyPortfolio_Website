@@ -28,6 +28,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    coalmanager,
+    farming,
+    recommendation,
     
   } from "../assets";
   
@@ -230,7 +233,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: coalmanager,
       source_code_link: "https://github.com/CHARLIE1210-A/coalmining-manager-website",
     },
     {
@@ -251,7 +254,7 @@ import {
         //   color: "pink-text-gradient",
         // },
       ],
-      image: jobit,
+      image: recommendation,
       source_code_link: "https://github.com/CHARLIE1210-A/Minor-Project",
     },
     {
@@ -272,7 +275,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: farming,
       source_code_link: "https://github.com/CHARLIE1210-A/Vasudhara-a-smart-farming-method",
     },
   ];
